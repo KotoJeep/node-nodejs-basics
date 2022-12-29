@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="991c2848-6d62-488b-be1d-05db8e309fa1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wt/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wt/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wt/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wt/worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cp/cp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp/cp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/wt/worker.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/cli/env.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/cp/files/script.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/cp/cp.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/cli/args.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/streams/transform.js" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +50,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.wt">
+  <component name="RunManager" selected="npm.cp">
     <configuration name="cli:args" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -71,21 +71,21 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="fs:copy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="cp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="fs:copy" />
+        <script value="cp" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="hash" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="fs:copy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="hash" />
+        <script value="fs:copy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.cp" />
         <item itemvalue="npm.wt" />
         <item itemvalue="npm.cli:args" />
         <item itemvalue="npm.cli:env" />
         <item itemvalue="npm.fs:copy" />
-        <item itemvalue="npm.hash" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +125,7 @@
       <workItem from="1672248189689" duration="123000" />
       <workItem from="1672248324861" duration="148000" />
       <workItem from="1672248480542" duration="1484000" />
-      <workItem from="1672301866898" duration="9376000" />
+      <workItem from="1672301866898" duration="13903000" />
     </task>
     <servers />
   </component>
