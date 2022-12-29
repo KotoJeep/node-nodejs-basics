@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991c2848-6d62-488b-be1d-05db8e309fa1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cli/args.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/args.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli/env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wt/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wt/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wt/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/wt/worker.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +27,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/wt/worker.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/cli/env.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/cp/cp.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/cli/args.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/streams/transform.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/wt/main.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2I7bX1OZdpbstzArh6gc7GWEVqy" />
   <component name="ProjectViewState">
@@ -46,7 +50,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.cli:args">
+  <component name="RunManager" selected="npm.wt">
     <configuration name="cli:args" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -87,11 +91,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="zip:compress" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="wt" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="zip:compress" />
+        <script value="wt" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -99,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.wt" />
         <item itemvalue="npm.cli:args" />
         <item itemvalue="npm.cli:env" />
         <item itemvalue="npm.fs:copy" />
         <item itemvalue="npm.hash" />
-        <item itemvalue="npm.zip:compress" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +125,7 @@
       <workItem from="1672248189689" duration="123000" />
       <workItem from="1672248324861" duration="148000" />
       <workItem from="1672248480542" duration="1484000" />
-      <workItem from="1672301866898" duration="5484000" />
+      <workItem from="1672301866898" duration="9376000" />
     </task>
     <servers />
   </component>
